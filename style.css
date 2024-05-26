@@ -1,0 +1,57 @@
+.intro {
+    background-color: green;
+  }
+
+  #firstname {
+    background-color: yellow;
+  }
+
+  * {
+    background-color: aqua;
+  }
+
+  h4 {
+    background-color: red;
+  }
+
+  div.a1 {
+    background-color: rgb(136, 0, 255);
+    height: 150px;
+  }
+
+  h2, h3 {
+    background-color: yellow;
+  }
+
+  div h1 {
+    background-color: rgb(255, 157, 0);
+  }
+
+  a[target="_blank"] {
+    background-color: rgb(179, 255, 0);
+  }
+
+  .p1::after { 
+    content: " - Remember this";
+  }
+
+  input:focus {
+    background-color: yellow;
+  }
+
+  a:hover {
+    background-color: yellow;
+  }
+
+  h5:first-child {
+    background: #ff0000;
+  }
+
+  h6:last-child {
+    background: #6600ff;
+  }
+
+  li:nth-child(3) {
+    background: lightgreen;
+  }
+
